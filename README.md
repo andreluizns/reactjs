@@ -1,6 +1,6 @@
 # React
 
-Projetos referentes em react:
+Projetos em react:
 
 1. Devflix - projeto desenvolvido para fazer requisições em uma api que traz várias informações sobre filmes.
 
