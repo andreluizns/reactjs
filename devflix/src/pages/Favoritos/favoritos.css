@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.itens-favoritos {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 800px;
+  padding-top: 30px;
+}
+
+.itens-favoritos .sem-filme {
+  text-align: center;
+}
+
+.itens-favoritos h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.itens-favoritos ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.itens-favoritos ul li {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-bottom: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itens-favoritos ul li .buttons-filmes {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-bottom: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itens-favoritos ul li a {
+  color: #116fbb;
+  padding: 10px;
+  height: 40px;
+  text-decoration: none;
+  font-size: 15px;
+  border: 1px solid #f0f0f0;
+  cursor: pointer;
+  width: auto;
+  transition: all 0.5s;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+.itens-favoritos ul li a:hover {
+  background: #116fbb;
+  color: #ffffff;
+  border: 1px solid #116fbb;
+  padding: 10px;
+}
+
+.itens-favoritos ul li button {
+  color: #116fbb;
+  padding: 10px;
+  height: 40px;
+  text-decoration: none;
+  font-size: 15px;
+  border: 1px solid #f0f0f0;
+  cursor: pointer;
+  width: auto;
+  transition: all 0.5s;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+.itens-favoritos ul li button:hover {
+  background: #116fbb;
+  color: #ffffff;
+  border: 1px solid #116fbb;
+  padding: 10px;
+}
